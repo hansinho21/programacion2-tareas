@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseMoved="#displayPosition" prefHeight="535.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tarea4.AnimaciónController">
+   <children>
+      <ImageView fitHeight="535.0" fitWidth="772.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagenes/62f9c894.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="526.0" layoutY="350.0" onMouseClicked="#burbujas" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../imagenes/ofvAUWg.gif" />
+         </image></ImageView>
+      <ImageView fx:id="pezImageView" fitHeight="187.0" fitWidth="175.0" layoutX="14.0" layoutY="174.0" onMouseClicked="#burbujas" pickOnBounds="true" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@../imagenes/magikarp.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="status" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="160.0" textFill="WHITE" />
+   </children>
+</AnchorPane>
